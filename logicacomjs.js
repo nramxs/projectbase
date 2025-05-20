@@ -20,6 +20,6 @@ console.log("A divisão entre as notas do aluno e as avaliações é de "+notas+
 
 let salario_bruto = 2800
 let meses_trab = 10
-let décimo = (salario_bruto/12)*meses_trab
+let décimo = salario_bruto/12*meses_trab
 let nome_do_usuário = "José"
 console.log(nome_do_usuário+ "seu décimo é:"+ décimo)
