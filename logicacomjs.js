@@ -18,8 +18,13 @@ let avaliações = 4
 let div = notas/avaliações
 console.log("A divisão entre as notas do aluno e as avaliações é de "+notas+"/"+avaliações+"="+div)*/
 
-let salario_bruto = 2800
+/*let salario_bruto = 2800
 let meses_trab = 10
 let décimo = salario_bruto/12*meses_trab
 let nome_do_usuário = "José"
-console.log(nome_do_usuário+ "seu décimo é:"+ décimo)
+console.log(nome_do_usuário+ "seu décimo é:"+ décimo)*/
+
+let salario = Number(prompt("3.500"))
+let_mesestr = Number(prompt("10"))
+let_mensal = salario/12*mesestr
+console.log("seu décimo é"+ mensal)
