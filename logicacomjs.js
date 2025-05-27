@@ -22,9 +22,40 @@ console.log("A divisão entre as notas do aluno e as avaliações é de "+notas+
 let meses_trab = 10
 let décimo = salario_bruto/12*meses_trab
 let nome_do_usuário = "José"
-console.log(nome_do_usuário+ "seu décimo é:"+ décimo)*/
-
-let salario = Number(prompt("3.500"))
+console.log(nome_do_usuário+ "seu décimo é:"+ décimo)
+/*let salario = Number(prompt("3.500"))
 let_mesestr = Number(prompt("10"))
 let_mensal = salario/12*mesestr
 console.log("seu décimo é"+ mensal)
+
+let salario = number(prompt("digite seu salario: "))
+if (salario < 500){
+ salario = (15/10*salario)+salario
+alert("seu novo salario é: "+salario)
+} else if (salario >=500 && salario<=1000){
+    salario = (10/100*salario)+salario
+    alert ("Seu novo salário é: "+salario)
+} else {
+    salario = (5/10*salario)+salario
+    alert ("Seu novo salario é: "+salario)
+}*/
+
+let idade = Number(prompt("digite sua idade"))
+if (idade <12 ){
+alert ("Sua categoria é: Infantil")
+}else if(idade >=12 && idade <=17){
+alert("sua categoria é: Teen")
+}else if (idade >=18 && idade <=60)
+alert("Sua categoria é: Adulto")
+else( idade >60)
+alert("Sua categoria é: Sênior")
+
+let pontuacao = Number(prompt("Digite sua pontuacao"))
+if (pontuacao <=1000) {
+alert("seu nivel é novato")
+}else if(pontuacao >=1001 && 5000) {
+alert("seu nivel é aprendiz")
+}else if(pontuacao >=5001 && 10000)
+alert("seu nivel é expert"){
+}else(pontuacao >=100000)
+alert('seu nivel é master')
