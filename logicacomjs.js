@@ -38,7 +38,7 @@ alert("seu novo salario é: "+salario)
 } else {
     salario = (5/10*salario)+salario
     alert ("Seu novo salario é: "+salario)
-}*/
+}
 
 let idade = Number(prompt("digite sua idade"))
 if (idade <12 ){
@@ -59,3 +59,58 @@ alert("seu nivel é aprendiz")
 alert("seu nivel é expert"){
 }else(pontuacao >=100000)
 alert('seu nivel é master')
+
+let valordobasico = 25;
+let valordopremium = 40;
+let valordoultra = 60;
+let tresa4 = 5;
+let maisque4 = 7.50;
+
+let tipodeassinatura = prompt("Digite o nome da assinatura que você deseja: ")
+let quantitelas = prompt("Digite quantas telas você terá: ")
+if(tipodeassinatura == "básico"){
+    if(quantitelas>=3 && quantitelas<=4){
+        alert("o seu plano sera R$" +(valosdobasico+tresa4))
+    } else if (quantitelas>=3 && quantitelas<=4){
+        alert("O seu plano sera R$ "+(valordobasico+maisque4))
+    } else {
+alert("O seu plano sera R$ "+valordobasico)
+    }
+
+}
+ else if (tipodeassinatura == "premium"){
+ if (quantitelas>=3 && quantitelas<=4){
+        alert("o seu plano sera R$"+(valordopremium+tresa4))
+    } else if (quantitelas>=3 && quantitelas<=4){
+        alert("o seu plano sera R$ "+(valordopremium+maisque4))
+    } else {
+ alert("o seu plano sera R$" +valordopremium)       
+    }
+}
+
+     else (tipodeassinatura == "ultra"){
+ if (quantitelas>=3 && quantitelas<=4){
+        alert("o seu plano sera R$"+(valordoultra+tresa4))
+    } else if (quantitelas>=3 && quantitelas<=4){
+        alert("o seu plano sera R$ "+(valordoultra+maisque4))
+    } else  {
+ alert("o seu plano sera R$" +valordoultra)       
+    }}
+
+    let daysOFWeek = ["lia", "Samuel",80,40,10]; 
+    console.log(daysOFWeek[1]) 
+    console.log(daysOFWeek.lenght)
+    let listdiver = ["lia",1,2.5,"Escola",false]
+    console.log(listdiver[3])
+    let nomedoaluno = prompt("Digite o nome do novo aluno:")
+    daysOFWeek.unshift(nomedoaluno)
+    daysOFWeek.unshift("miguel", "alysson", "arthur", "nayline")
+    daysOFWeek.push('joao')
+    daysOFWeek.pop()
+    daysOFWeek.shift()
+    daysOFWeek.sort()
+    daysOFWeek.reverse()
+    alert("Atualmente os alunos da escola são:" +daysOFWeek) 
+    alert(daysOFWeek.indexOf("arthur"))*/
+
+    
