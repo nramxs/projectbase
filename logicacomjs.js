@@ -111,6 +111,38 @@ alert("O seu plano sera R$ "+valordobasico)
     daysOFWeek.sort()
     daysOFWeek.reverse()
     alert("Atualmente os alunos da escola são:" +daysOFWeek) 
-    alert(daysOFWeek.indexOf("arthur"))*/
+    alert(daysOFWeek.indexOf("arthur"))
+
+function saudar(){
+    alert ("Desejo uma boa navegação no nosso site!")
+}
+saudar()
+
+function dobrarNumero(numero){
+    return numero * 2
+}
+let resultado = dobrarNumero(888)
+alert ("o calculo do dobro do numero"+resultado)
+
+function cumprimentar(nome){
+    alert("Ola, "+nome+" como esta seu dia?")
+}
+cumprimentar("Raquel")
+
+let nomedoaluno = prompt("Digite o seu nome jovem:")
+cumprimentar(nomedoaluno)
+
+function contagemregressiva(numero){
+     console.log(numero)
+    if(numero ===0){
+        console.log("chegou");
+        return ;
+    }
+    contagemregressiva(numero-1)
+}
+contagemregressiva(10)*/
+
+
+    
 
     
